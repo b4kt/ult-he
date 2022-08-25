@@ -3,9 +3,9 @@
     "bare-server-node": "github:tomphttp/bare-server-node",
     "node-static": "^0.7.11"
   },
-  "name": "uv-app",
+  "name": "FP Instance",
   "version": "1.0.0",
-  "description": "FP Instance",
+  "description": "FP",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
