@@ -13,11 +13,6 @@
     font-family: Roboto;
 }
 
-@font-face{
-    font-family:'typewriter';
-    src:url('typewriter.ttf')
-}
-
 body {
     margin: 0;
     background: #000000;
