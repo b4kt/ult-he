@@ -118,18 +118,3 @@ form input:focus {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
-#hpg {
-    margin-top: 5px;
-	margin-bottom:5px;
-	margin-right:5px;
-	margin-left:5px;
-	color:white;
-	background-color:rgb(30, 30, 30);
-	height:50px;
-	width:200px;
-	font-size:2em;
-	border-radius:20px;
-	font-family:'typewriter';
-	border-color:rgb(255, 255, 255);
-}
