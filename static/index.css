@@ -130,6 +130,6 @@ form input:focus {
 	width:200px;
 	font-size:2em;
 	border-radius:20px;
-	font-family: sans-serif;
+	font-family:'typewriter';
 	border-color:rgb(255, 255, 255);
 }
