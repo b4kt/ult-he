@@ -23,9 +23,13 @@ button {
 	border-radius:20px;
 	font-family:'typewriter';
 	border-color:rgb(255, 255, 255);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+	
 }
+.cb {
+	text-align: center;
+	border: 1px solid coral;
+	height: 40vh;
+        }
 </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -39,7 +43,7 @@ button {
         <input placeholder="Search or type web address here">
 	<input id="go" type="submit" size="60" style="height:50px; width:100px" value="Go">
 	</form>
-	<br><br><button type="button" onclick="window.location.href='https://home.0xdc.icu';">Homepage</button>
+	<br><br><div class="cb"><button type="button" onclick="window.location.href='https://home.0xdc.icu';">Homepage</button></div>
 	<script src="uv/uv.bundle.js"></script>
     <script src="uv/uv.config.js"></script>
     <script src="index.js"></script>
