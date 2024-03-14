@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <style>
 body {
@@ -24,7 +23,7 @@ button {
 	height:50px;
 	width:200px;
 	font-size:2em;
-	border-radius:20px;
+	border-radius:50px;
 	font-family:'typewriter';
 	border-color:rgb(255, 255, 255);
 	    }
@@ -39,17 +38,24 @@ button {
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e">
     <link rel="stylesheet" type="text/css" href="index.css"/></head>
 <body>			
-<h1>Freedom Project</h1>
-	
+<h1 style="padding: 20px;">Freedom Project</h1>
 	<form>	
         <input placeholder="Search or type web address here">
 	<input id="go" type="submit" size="60" style="height:50px; width:100px" value="Go">
 	</form>
-	<br><br><div class="cb"><button type="button" onclick="window.location.href='https://0xdc.icu';">Homepage</button></div>
-	<br> <div><h3>May be issues with IP blacklisting sometimes, specifically: Cloudflare verification, Reddit</h3></div>
+	<div class="cb"><button type="button" onclick="window.location.href='https://0xdc.icu';">Homepage</button></div>
+	<div style="display: flex; justify-content: center; align-items: center; height: 55vh;">
+		<div style="text-align: center;
+					border-style: solid;
+					border-color: rgb(255, 255, 255);
+					border-radius: 20px;
+					width: 35%;
+					padding: 30px;
+					">
+		<div><h2>May be issues with IP blacklisting sometimes, specifically: <br><br></h2><h1 style='color:red';> Cloudflare verification, Reddit</h1><br><h3>Reddit does work with old.reddit.com</h3></div>
+	  </div>
 	<script src="uv/uv.bundle.js"></script>
     <script src="uv/uv.config.js"></script>
     <script src="index.js"></script>
 </body>
-
 </html>
